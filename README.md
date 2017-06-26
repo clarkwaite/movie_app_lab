@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# movie_app_lab
+>>>>>>> 938fdb2f65083af57c5bdd8d1526dbf4eb8ad705
