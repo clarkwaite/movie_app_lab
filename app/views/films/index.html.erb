@@ -1,0 +1,13 @@
+<h1>This is the films index page</h1>
+
+<h2><%= link_to "Add A New Film", film_new_path%></h2>
+<ul>
+<% @films.each do |film| %>
+<li>
+    <h2><%= link_to film.title, film_path(film) %></h2>
+    <h3><%= film.genre %></h3>
+    <h3><%= film.year %></h3>
+    <p><%= film.synopsis %></p>
+</li>
+<% end %>
+</ul>
